@@ -5,7 +5,7 @@ import (
   "os/signal"
   "fmt"
   "io"
-  "errgroup"
+  "golang.org/x/sync/errgroup"
 )
 
 func StartHttpServer(srv *http.Server) error {
