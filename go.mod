@@ -3,6 +3,7 @@ module github.com/zjamy/go_prac
 go 1.13
 
 require (
+	github.com/go-kratos/kratos/cmd/kratos v0.0.0-20210217095515-c4e4aa563867 // indirect
 	github.com/go-kratos/kratos/cmd/kratos/v2 v2.0.0-20210616115419-db02034dd16d // indirect
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gorilla/mux v1.8.0

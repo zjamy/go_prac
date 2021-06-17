@@ -11,7 +11,7 @@ type HelloworldService struct {
 	pb.UnimplementedHelloworldServer
 }
 
-func NewHelloworldService() *HelloworldService {
+func NewHelloworldService() pb.HelloworldServer {
 	return &HelloworldService{}
 }
 
